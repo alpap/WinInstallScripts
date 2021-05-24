@@ -1,0 +1,63 @@
+# ----- must have ------
+GoogleChrome
+Firefox
+7zip
+vlc
+#pydiosync
+qbittorrent
+imageglass
+office2019proplus
+# ------- drivers -------
+#amd-ryzen-chipset
+#geforce-game-ready-driver
+# -------- work ---------
+terraform
+kubectx
+#lens
+awscli
+kubens
+kubernetes-helm
+kubernetes-cli
+citrix-workspace
+# ----- programming -----
+nodejs
+powershell-core
+git
+golang
+yarn
+vscode
+cascadiafonts
+nvm
+#deno
+#beekeeper-studio
+#responsively
+#firacodenf
+visualstudio2019buildtools
+# ------ utilities ------
+#starship
+#wireguard
+#Autoruns
+microsoft-windows-terminal
+nmap
+curl
+caffeine
+which
+micro
+winscp
+modernflyouts
+files
+#translucenttb
+#dbatools
+# ------ graphics -------
+google-web-designer
+# ---- screencapture ----
+#sharex
+#lightshot
+#obs-studio
+# -------- games --------
+leagueoflegends
+epicgameslauncher
+steam
+# ---- communication ----
+slack
+discordt
