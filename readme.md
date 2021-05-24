@@ -16,7 +16,7 @@ Then run
 
 ## Changes happening
 
-### Chocolatey
+### chocolatey
 
 Installs chocolatey afterwards all the apps in the apps.txt
 The lines starting with a hash tag are commented out
@@ -28,3 +28,7 @@ Installs powerline and replaces the theme with a custom one
 ### powershell
 
 Installs powerline and sets the terminal config file to acustom one
+
+### cleanup
+
+removes useless apps from windows
