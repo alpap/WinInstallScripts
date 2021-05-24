@@ -26,7 +26,7 @@ function CopyTerminalConfigToFolder {
     $WindowsTerminalConfigFolder = "C:/Users/alpap/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState"
     $WindowsTerminalConfigFile = $WindowsTerminalConfigFolder + "/" + $ConfigFilename
 
-    if (!(Test-Path -Path $ConfigFolder)) {
+    if (!(Test-Path -Path $WindowsTerminalConfigFolder)) {
         mkdir $WindowsTerminalConfigFolder
         if (Test-Path -Path $WindowsTerminalConfigFile) {
             Remove-Item $WindowsTerminalConfigFile
@@ -41,7 +41,7 @@ function CopyThemeToFolder {
     $WindowsTerminalThemeFolder = "~/OneDrive/Documents/PowerShell/Modules/oh-my-posh/*/Themes"
     $WindowsTerminalThemeFile = $WindowsTerminalThemeFolder + "/" + $ThemeFilename
 
-    if (!(Test-Path -Path $ThemeFolder)) {
+    if (!(Test-Path -Path $WindowsTerminalThemeFolder)) {
         mkdir $WindowsTerminalThemeFolder
         if (Test-Path -Path $WindowsTerminalThemeFile) {
             Remove-Item $WindowsTerminalThemeFile
