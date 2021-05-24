@@ -23,7 +23,7 @@ function CopyDefaultProfileToPowershellFolder {
 # windows terminal configs
 function CopyTerminalConfigToFolder {
     $ConfigFilename = "settings.json"
-    $WindowsTerminalConfigFolder = "C:\Users\alpap\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState"
+    $WindowsTerminalConfigFolder = "C:/Users/alpap/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState"
     $WindowsTerminalConfigFile = $WindowsTerminalConfigFolder + "/" + $ConfigFilename
 
     if (!(Test-Path -Path $ConfigFolder)) {
@@ -36,6 +36,21 @@ function CopyTerminalConfigToFolder {
     refreshenv
 }
 
+function CopyThemeToFolder {
+    $ThemeFilename = "alpap.psm1"
+    $WindowsTerminalThemeFolder = "~/OneDrive/Documents/PowerShell/Modules/oh-my-posh/*/Themes"
+    $WindowsTerminalThemeFile = $WindowsTerminalThemeFolder + "/" + $ThemeFilename
+
+    if (!(Test-Path -Path $ThemeFolder)) {
+        mkdir $WindowsTerminalThemeFolder
+        if (Test-Path -Path $WindowsTerminalThemeFile) {
+            Remove-Item $WindowsTerminalThemeFile
+        }
+        Copy-Item ./powershell/${ThemeFilename} $WindowsTerminalThemeFolder
+    }
+    refreshenv
+}
 
 CopyDefaultProfileToPowershellFolder
 CopyTerminalConfigToFolder
+CopyThemeToFolder

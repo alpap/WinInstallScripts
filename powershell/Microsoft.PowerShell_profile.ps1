@@ -1,8 +1,6 @@
 Import-Module posh-git
 Import-Module oh-my-posh
-Import-Module posh-github
 Set-Theme alpap
-
 
 function sudo {
     [string]$argsString = $args -join " "
