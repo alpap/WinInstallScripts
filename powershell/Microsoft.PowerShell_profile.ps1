@@ -6,6 +6,6 @@ Set-Theme alpap
 
 function sudo {
     [string]$argsString = $args -join " "
-    echo $argsString
+    Write-Output $argsString
     Start-Process -Verb RunAs "C:\Program Files\PowerShell\7\pwsh.exe" -Args "-executionpolicy bypass -command Set-Location \`"$PWD\`"; ${argsString}"
 }

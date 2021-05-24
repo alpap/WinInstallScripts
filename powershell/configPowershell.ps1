@@ -2,8 +2,9 @@
 
 
 function CopyDefaultProfileToPowershellFolder {
+    $ConfigFilename = "Microsoft.PowerShell_profile.ps1"
     $ConfigFolder = "~/Documents/PowerShell"
-    $ConfigFilePath = "~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
+    $ConfigFilePath = "~/Documents/PowerShell/" + $ConfigFilename
 
     if (!(Test-Path -Path $ConfigFolder)) {
         mkdir $ConfigFolder
@@ -15,7 +16,7 @@ function CopyDefaultProfileToPowershellFolder {
     Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
     Install-Module posh-git -Scope CurrentUser -AllowPrerelease
 
-    Copy-Item ./Microsoft.PowerShell_profile.ps1 $ConfigFolder
+    Copy-Item ./powershell/${ConfigFilename} $ConfigFolder
     refreshenv
 }
 
@@ -30,7 +31,7 @@ function CopyTerminalConfigToFolder {
         if (Test-Path -Path $WindowsTerminalConfigFile) {
             Remove-Item $WindowsTerminalConfigFile
         }
-        Copy-Item ./${ConfigFilename} $WindowsTerminalConfigFolder
+        Copy-Item ./powershell/${ConfigFilename} $WindowsTerminalConfigFolder
     }
     refreshenv
 }
