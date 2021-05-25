@@ -45,8 +45,8 @@ caffeine
 which
 micro
 winscp
-modernflyouts
-files
+#modernflyouts #throws error forbidden access 403
+#files #throws error forbidden access 403
 #translucenttb
 #dbatools
 # ------ graphics -------
@@ -56,9 +56,9 @@ google-web-designer
 #lightshot
 #obs-studio
 # -------- games --------
-leagueoflegends
+#leagueoflegends #throws 403 error
 epicgameslauncher
 steam
 # ---- communication ----
 slack
-discordt
+discord #namefix
