@@ -13,7 +13,8 @@ office2019proplus
 # -------- work ---------
 terraform
 kubectx
-#lens
+aws-iam-authenticator
+lens
 awscli
 kubens
 kubernetes-helm
