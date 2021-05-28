@@ -19,7 +19,7 @@ unset THEME
 
     # replace powerline theme with custom
 
-    $themePath = "C:\Users\alpap\.bash\themes\git_bash_windows_powerline"
+    $themePath = "$HOME\.bash\themes\git_bash_windows_powerline"
     Remove-Item ${themePath}\theme.bash
     Copy-Item ./bash/theme.bash $themePath
 

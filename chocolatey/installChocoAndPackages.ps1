@@ -11,7 +11,7 @@ function InstallChocolatey {
 
 function InstallPackages {
     $apps = (Get-Content ./chocolatey/apps.txt)
-    [string[]]$filteredApps = $apps | where { $_[0] -NotMatch '#' }
+    [string[]]$filteredApps = $apps | Where-Object { $_[0] -NotMatch '#' }
     [string]$appsString = $filteredApps -join " "
     choco.exe install $appsString -y
     refreshenv
