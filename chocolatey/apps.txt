@@ -1,12 +1,12 @@
 # ----- must have ------
 GoogleChrome
 Firefox
-7zip
-vlc
+#7zip
+#vlc
 #pydiosync
-qbittorrent
-imageglass
-office2019proplus
+#qbittorrent
+#imageglass
+#office2019proplus
 # ------- drivers -------
 #amd-ryzen-chipset
 #geforce-game-ready-driver
@@ -46,19 +46,15 @@ which
 micro
 winscp
 #modernflyouts #throws error forbidden access 403
-#files #throws error forbidden access 403
 #translucenttb
 #dbatools
 # ------ graphics -------
-google-web-designer
+#google-web-designer
 # ---- screencapture ----
 #sharex
 #lightshot
 #obs-studio
-# -------- games --------
-#leagueoflegends #throws 403 error
-epicgameslauncher
 steam
 # ---- communication ----
 slack
-discord #namefix
+#discord 
