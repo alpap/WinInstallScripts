@@ -32,14 +32,3 @@ Installs powerline and sets the terminal config file to acustom one
 ### cleanup
 
 removes useless apps from windows
-
-## Future work
-
-Find a way to install these packages in a generic way to support pther ones as wellInstall
-
-- amd radeon software
-- amd ryzen master
-- binance
-- sharksurf
-- asus ai suidte 3
-- foxit
