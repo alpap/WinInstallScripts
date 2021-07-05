@@ -1,14 +1,14 @@
 # ----- must have ------
 GoogleChrome
 Firefox
-#7zip
-#vlc
+7zip
+vlc
 #pydiosync
-#qbittorrent
-#imageglass
-#office2019proplus
+qbittorrent
+imageglass
+office2019proplus
 # ------- drivers -------
-#amd-ryzen-chipset
+amd-ryzen-chipset
 #geforce-game-ready-driver
 # -------- work ---------
 terraform
@@ -19,7 +19,6 @@ awscli
 kubens
 kubernetes-helm
 kubernetes-cli
-citrix-workspace
 # ----- programming -----
 nodejs
 powershell-core
@@ -32,10 +31,10 @@ nvm
 #deno
 #beekeeper-studio
 #responsively
-#firacodenf
+firacodenf
 visualstudio2019buildtools
 # ------ utilities ------
-#starship
+starship
 #wireguard
 #Autoruns
 microsoft-windows-terminal
@@ -46,7 +45,7 @@ which
 micro
 winscp
 #modernflyouts #throws error forbidden access 403
-#translucenttb
+translucenttb
 #dbatools
 # ------ graphics -------
 #google-web-designer
@@ -57,4 +56,4 @@ winscp
 steam
 # ---- communication ----
 slack
-#discord 
+discord 
