@@ -20,7 +20,7 @@ kubens
 kubernetes-helm
 kubernetes-cli
 # ----- programming -----
-nodejs
+#nodejs
 powershell-core
 git
 golang
@@ -38,7 +38,7 @@ starship
 #wireguard
 #Autoruns
 microsoft-windows-terminal
-nmap
+#nmap
 curl
 caffeine
 which
