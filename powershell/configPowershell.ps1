@@ -3,8 +3,8 @@
 
 function CopyDefaultProfileToPowershellFolder {
     $ConfigFilename = "Microsoft.PowerShell_profile.ps1"
-    $ConfigFolder = "~/Documents/PowerShell"
-    $ConfigFilePath = "~/Documents/PowerShell/" + $ConfigFilename
+    $ConfigFolder = "~/Documents/WindowsPowerShell"
+    $ConfigFilePath = "~/Documents/WindowsPowerShell/" + $ConfigFilename
 
     if (!(Test-Path -Path $ConfigFolder)) {
         mkdir $ConfigFolder
