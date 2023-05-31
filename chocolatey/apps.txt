@@ -1,31 +1,29 @@
 # ----- must have ------
-GoogleChrome
-Firefox
+#GoogleChrome
+#Firefox
 7zip
-vlc
-#pydiosync
+#vlc
 qbittorrent
-imageglass
-office2019proplus
+office365proplus
 # ------- drivers -------
-amd-ryzen-chipset
+#amd-ryzen-chipset
 #geforce-game-ready-driver
 # -------- work ---------
-terraform
-kubectx
-aws-iam-authenticator
-lens
-awscli
-kubens
-kubernetes-helm
-kubernetes-cli
+#terraform
+#kubectx
+#aws-iam-authenticator
+#lens
+#awscli
+#kubens
+#kubernetes-helm
+#kubernetes-cli
 # ----- programming -----
 #nodejs
 powershell-core
 git
-golang
+#golang
 yarn
-vscode
+#vscode
 cascadiafonts
 nvm
 #deno
@@ -40,12 +38,12 @@ starship
 microsoft-windows-terminal
 #nmap
 curl
-caffeine
+#caffeine
 which
 micro
 winscp
 #modernflyouts #throws error forbidden access 403
-translucenttb
+#translucenttb
 #dbatools
 # ------ graphics -------
 #google-web-designer
@@ -54,6 +52,7 @@ translucenttb
 #lightshot
 #obs-studio
 steam
+epicgameslauncher
 # ---- communication ----
-slack
-discord 
+#slack
+#discord 
