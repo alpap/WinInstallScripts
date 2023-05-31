@@ -11,6 +11,11 @@ function pkill {
 function kill{
     Stop-Process -ID $args[0] -Force
 }
+function gcp {
+    git add .
+    git commit -am "$(git status --porcelain)"
+    git push
+}
 
 # Chocolatey profile
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
