@@ -7,7 +7,6 @@ Microsoft.MicrosoftSolitaireCollection
 Microsoft.XboxGameOverlay
 Microsoft.WindowsFeedbackHub
 xboxapp
-3DPrint
 Microsoft.Office.OneNote
 Microsoft.MicrosoftOfficeHub
 Microsoft.SkypeApp
