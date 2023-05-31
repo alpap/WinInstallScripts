@@ -17,6 +17,7 @@ office365proplus
 #kubens
 #kubernetes-helm
 #kubernetes-cli
+cloudflared
 # ----- programming -----
 #nodejs
 powershell-core
