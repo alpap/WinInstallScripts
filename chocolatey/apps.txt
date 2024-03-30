@@ -2,7 +2,7 @@
 #GoogleChrome
 #Firefox
 7zip
-#vlc
+vlc
 qbittorrent
 office365proplus
 # ------- drivers -------
@@ -23,14 +23,14 @@ cloudflared
 powershell-core
 git
 #golang
-yarn
+pnpm
 #vscode
 cascadiafonts
 nvm
 #deno
-#beekeeper-studio
+beekeeper-studio
 #responsively
-firacodenf
+#firacodenf
 visualstudio2019buildtools
 # ------ utilities ------
 starship
@@ -56,4 +56,4 @@ steam
 epicgameslauncher
 # ---- communication ----
 #slack
-#discord 
+discord 
